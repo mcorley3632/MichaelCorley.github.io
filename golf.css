@@ -1,0 +1,155 @@
+body {
+    background-color: #e6a754;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #000000;
+    color: #e6a754;
+    height: 160%;
+    text-align: center;
+    font-size: larger; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#simhero {
+    background-image: url(simulator-bays.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#lessonshero {
+    background-image: url(golf-coaching.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+nav {
+    float: left;
+    width: 170px;
+    padding: 1.5em;
+    font-weight: bold;
+    font-size: 130%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    }
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    transition: background-color 3s linear ;
+}
+main {
+    margin-left: 222px;
+    margin-right: 222px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    display: block;
+    overflow: auto;
+}
+header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+header a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:link {
+    color: #000000;
+}
+nav a:hover {
+    color: #e6a754;
+    background-color: #e6a754;
+}
+h1 a:visited {
+    color: #e6a754;
+}
+.resort {
+    color: #000000;
+    font-weight: bold;
+}
+#wrapper {
+    background-image: linear-gradient(to bottom, #ffffff, #99916c);
+    width: 80%; min-width: 960px; max-width: 2048px;
+    border: 1px solid #000033;
+    margin-left: auto; margin-right: auto;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+#golfsim {
+    float: right;
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+}
+
+hr {
+    border: 5px solid #000000;
+}
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2.5em;
+    letter-spacing: .20em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-shadow: 1px 1px 1px #ecddc8;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+td,th {
+    padding: 0.5em;
+    border: 2px solid #000000;
+}
+td {
+    text-align: center;
+}
+.corley{
+    color: #e6a754;
+    font-weight: bold;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #ecddc8;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-right: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
